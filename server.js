@@ -39,9 +39,10 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api', (req, res) => {
-  // //Whatever is selected, 
+  // //Whatever is selected,
   
   //search that in the above 200 object.
+  // const sector = req.params.name
   const sector = req.query.sector;
 
   if (sector && above200.hasOwnProperty(sector)) {
