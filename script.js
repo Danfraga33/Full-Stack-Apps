@@ -1,5 +1,5 @@
 const submitBtn = document.querySelector("#submitBtn");
-
+ 
 submitBtn.addEventListener('click', async () => {
   const selectedSector = document.querySelector('input[name="sector"]:checked').value
   console.log(selectedSector)
