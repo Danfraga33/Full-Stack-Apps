@@ -7,7 +7,7 @@ submitBtn.addEventListener('click', async () => {
     const response = await fetch(`/api?sector=${selectedSector}`) 
     const data = await response.json() 
     console.log(data)
-  } catch (err) {
+  } catch (err) { 
     console.error(err)
   }
 })
