@@ -4,7 +4,7 @@ const path = require('path')
 const PORT = 3000; 
 
 const above200 = {
-  "Tech": {
+  "Tech": { 
     "CAPR": {
       "Name": "CAPRICOR THERAPEUTICS",
       "Price": "5.05"
